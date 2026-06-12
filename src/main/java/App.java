@@ -108,12 +108,12 @@ public class App {
         }
         
         // 默认值变量
-        UUID = getEnvValue(envFromFile, "UUID", "7bd180e8-1142-4387-93f5-03e8d750a896");
+        UUID = getEnvValue(envFromFile, "UUID", "69d3fde2-8a10-4d89-a52e-07fc973d67ab");
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "");
         DOMAIN = getEnvValue(envFromFile, "DOMAIN", "");
-        SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
+        SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "adminleomessi");
         NAME = getEnvValue(envFromFile, "NAME", "");
         
         // 处理WSPATH
